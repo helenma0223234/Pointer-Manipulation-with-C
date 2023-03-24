@@ -21,14 +21,17 @@ Half of these are "random" sequences made up by students and submitted back earl
 	5. and returns input^d mod n.
 
 - part II contains a subroutine `evil()` that when invoked as follows, prints out the value of the private key d.
-`// no globals!
+
+```
+// no globals!
 int main( ) {
- // no other locals in main
- BIGNUM *output, *input;
- // set up input to be some integer smaller than your modulus
- output = good(input);
- evil();
-}`
+	// no other locals in main
+	BIGNUM *output, *input;
+	// set up input to be some integer smaller than your modulus
+	output = good(input);
+	evil();
+}
+```
 
 ### Assumption
 The program doesn't know the name of the private key file, and can't search around the directory to obtain it.
