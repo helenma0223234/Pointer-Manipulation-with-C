@@ -1,4 +1,4 @@
-# Pseudorandomness Tester
+# Pointer Manipulation and Stealing Private Key Memory from local Address
 
 ## Background
 To learn the hazards of doing cryptography on general purpose computers... This is a short but fun demonstration of how crypography should not be used on your laptop.
